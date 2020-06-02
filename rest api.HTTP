@@ -1,0 +1,15 @@
+
+GET http://localhost:3000/
+
+###
+
+GET http://localhost:3000/about
+
+###
+
+POST  http://localhost:3000/ HTTP/1.1
+content-type: application/json
+{
+    "city":"Cairo"
+    }
+
